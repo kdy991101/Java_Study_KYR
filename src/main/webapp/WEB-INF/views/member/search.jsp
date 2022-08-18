@@ -4,14 +4,21 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>회원정보찾기</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<h3>Search Page</h3>
-
-	<form action="search.iu" method="post">
-	ID <input type="text" name="search">
-	<input type="submit">
-	</form>
+		<h1>ID SEARCH</h1>
+		
+		<form action="search.iu" method="post">
+		
+		<div> 
+			검색하실 아이디를 입력하세요<br>
+			<input type="text" name="search">
+		</div>
+		
+		<div>
+			<input type="submit" value="검색">
+		</div>
+		</form>
 </body>
 </html>
